@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:{{ cal_prodid }}
+NAME:{{ cal_name }}
+X-WR-CALNAME:{{ cal_name }}
+DESCRIPTION:{{ cal_description }}
+X-WR-CALDESC:{{ cal_description }}
+{% for event in events %}BEGIN:VEVENT
+ORGANIZER;{{ event.organizer }}
+UID:{{ event.uid }}
+DTSTAMP:{{ event.dtstamp }}
+DTSTART:{{ event.dtstamp }}
+DTEND:{{ event.dtstamp }}
+SUMMARY:{{ event.summary }}
+DESCRIPTION:{{ event.description }}
+LOCATION:{{ event.location }}
+END:VEVENT{% endfor %}
+END:VCALENDAR

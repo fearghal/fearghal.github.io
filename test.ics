@@ -6,7 +6,8 @@ X-WR-CALNAME:All Ireland Hurling Finals (:x-wr-calname)
 DESCRIPTION:All Ireland Hurling Finals (:description)
 X-WR-CALDESC:All Ireland Hurling Finals (:x-wr-caldesc)
 BEGIN:VEVENT
-ORGANIZER;CN=Tiny Tools gvttc-ical:MAILTO:gvttc-ical@tinytools.comUID:uid1@uid.tinytools.com
+ORGANIZER;CN=Tiny Tools gvttc-ical:MAILTO:gvttc-ical@tinytools.com
+UID:uid1@uid.tinytools.com
 DTSTAMP:20160904T121500Z
 DTSTART:20160904T121500Z
 DTEND:20160904T141500Z
@@ -15,7 +16,8 @@ DESCRIPTION:Luimneach abu!
 LOCATION:Croke Park, Jones' Road, Dublin 3, Ireland
 END:VEVENT
 BEGIN:VEVENT
-ORGANIZER;CN=Tiny Tools gvttc-ical:MAILTO:gvttc-ical@tinytools.comUID:uid2@uid.tinytools.com
+ORGANIZER;CN=Tiny Tools gvttc-ical:MAILTO:gvttc-ical@tinytools.com
+UID:uid2@uid.tinytools.com
 DTSTAMP:20160904T143000Z
 DTSTART:20160904T143000Z
 DTEND:20160904T163000Z
