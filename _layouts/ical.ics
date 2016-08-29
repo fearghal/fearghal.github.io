@@ -1,11 +1,11 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:{{ current_page.data.cal_prodid }}
-NAME:{{ current_page.data.cal_name }}
-X-WR-CALNAME:{{ current_page.data.cal_name }}
-DESCRIPTION:{{ current_page.data.cal_description }}
-X-WR-CALDESC:{{ current_page.data.cal_description }}
-{% for event in current_page.data.events %}BEGIN:VEVENT
+PRODID:{{ page.cal_prodid }}
+NAME:{{ page.cal_name }}
+X-WR-CALNAME:{{ page.cal_name }}
+DESCRIPTION:{{ page.cal_description }}
+X-WR-CALDESC:{{ page.cal_description }}
+{% for event in page.events %}BEGIN:VEVENT
 ORGANIZER;{{ event.organizer }}
 UID:{{ event.uid }}
 DTSTAMP:{{ event.dtstamp }}
