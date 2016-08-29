@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//tinytools.com/gvttc-ical//NONSGML v0.1//EN
+BEGIN:VEVENT
+ORGANIZER;CN=Tiny Tools gvttc-ical:MAILTO:gvttc-ical@tinytools.com
+UID:uid1@uid.tinytools.com
+DTSTAMP:20160904T121500Z
+DTSTART:20160904T121500Z
+DTEND:20160904T141500Z
+SUMMARY:Limerick v Tipperary, All Ireland Minor Hurling Final
+DESCRIPTION:Luimneach abu!
+LOCATION:Croke Park, Jones' Road, Dublin 3, Ireland
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Tiny Tools gvttc-ical:MAILTO:gvttc-ical@tinytools.com
+UID:uid2@uid.tinytools.com
+DTSTAMP:20160904T143000Z
+DTSTART:20160904T143000Z
+DTEND:20160904T163000Z
+SUMMARY:Kilkenny v Tipperary, All Ireland Senior Hurling Final
+DESCRIPTION:Cats v Premier
+LOCATION:Croke Park, Jones' Road, Dublin 3, Ireland
+END:VEVENT
+END:VCALENDAR
