@@ -7,7 +7,7 @@ DESCRIPTION:{{ calendar.description }}
 X-WR-CALDESC:{{ calendar.description }}
 {% for event in calendar.events %}
 BEGIN:VEVENT
-ORGANIZER;{{ event.organizer }}
+ORGANIZER;{{ calendar.organizer }}
 UID:{{ event.uid }}
 DTSTAMP:{{ event.dtstamp }}
 DTSTART:{{ event.dtstart }}

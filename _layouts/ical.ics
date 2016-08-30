@@ -6,7 +6,7 @@ X-WR-CALNAME:{{ page.cal_name }}
 DESCRIPTION:{{ page.cal_description }}
 X-WR-CALDESC:{{ page.cal_description }}
 {% for event in page.events %}BEGIN:VEVENT
-ORGANIZER;{{ event.organizer }}
+ORGANIZER;{{ calendar.organizer }}
 UID:{{ event.uid }}
 DTSTAMP:{{ event.dtstamp }}
 DTSTART:{{ event.dtstart }}
