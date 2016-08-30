@@ -1,0 +1,19 @@
+cal_prodid: -//tinytools.com/gvttc-ical//NONSGML v0.1//EN
+cal_name: All Ireland Hurling Finals 2016
+cal_description: All Ireland Hurling Finals 2016
+cal_organizer: CN=Tiny Tools gvttc-ical:MAILTO:gvttc-ical@tinytools.com
+events:
+ - uid: uid1@uid.tinytools.com
+   dtstamp: 20160904T121500Z
+   dtstart: 20160904T121500Z
+   dtend: 20160904T141500Z
+   summary: Limerick v Tipperary, All Ireland Minor Hurling Final
+   description: Luimneach abu!
+   location: Croke Park, Jones' Road, Dublin 3, Ireland
+ - uid: uid2@uid.tinytools.com
+   dtstamp: 20160904T143000Z
+   dtstart: 20160904T143000Z
+   dtend: 20160904T163000Z
+   summary: Kilkenny v Tipperary, All Ireland Senior Hurling Final
+   description: Cats v Premier
+   location: Croke Park, Jones' Road, Dublin 3, Ireland

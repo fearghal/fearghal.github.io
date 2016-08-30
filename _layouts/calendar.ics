@@ -1,0 +1,19 @@
+{% assign calendar = site.data.calendars[page.calendar] %}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:{{ calendar.cal_prodid }}
+NAME:{{ calendar.cal_name }}
+X-WR-CALNAME:{{ calendar.cal_name }}
+DESCRIPTION:{{ calendar.cal_description }}
+X-WR-CALDESC:{{ calendar.cal_description }}
+{% for event in calendar.events %}BEGIN:VEVENT
+ORGANIZER;{{ event.organizer }}
+UID:{{ event.uid }}
+DTSTAMP:{{ event.dtstamp }}
+DTSTART:{{ event.dtstamp }}
+DTEND:{{ event.dtstamp }}
+SUMMARY:{{ event.summary }}
+DESCRIPTION:{{ event.description }}
+LOCATION:{{ event.location }}
+END:VEVENT{% endfor %}
+END:VCALENDAR
