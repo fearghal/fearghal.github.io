@@ -6,7 +6,8 @@ NAME:{{ calendar.name }}
 X-WR-CALNAME:{{ calendar.name }}
 DESCRIPTION:{{ calendar.description }}
 X-WR-CALDESC:{{ calendar.description }}
-{% for event in calendar.events %}BEGIN:VEVENT
+{% for event in calendar.events %}
+BEGIN:VEVENT
 ORGANIZER;{{ event.organizer }}
 UID:{{ event.uid }}
 DTSTAMP:{{ event.dtstamp }}
