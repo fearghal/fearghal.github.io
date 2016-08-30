@@ -1,6 +1,6 @@
-{{page.calendar}}
+page.calendar={{ page.calendar }}
 
-{% assign calendar = site.data.calendars[page.calendar] %}
+calendar={{ calendar }}
 
 BEGIN:VCALENDAR
 VERSION:2.0

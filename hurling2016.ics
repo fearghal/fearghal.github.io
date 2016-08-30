@@ -2,3 +2,4 @@
 layout: ical
 calendar: hurling2016
 ---
+{% assign calendar = site.data.calendars[page.calendar] %}
