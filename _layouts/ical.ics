@@ -9,8 +9,8 @@ X-WR-CALDESC:{{ page.cal_description }}
 ORGANIZER;{{ event.organizer }}
 UID:{{ event.uid }}
 DTSTAMP:{{ event.dtstamp }}
-DTSTART:{{ event.dtstamp }}
-DTEND:{{ event.dtstamp }}
+DTSTART:{{ event.dtstart }}
+DTEND:{{ event.dtend }}
 SUMMARY:{{ event.summary }}
 DESCRIPTION:{{ event.description }}
 LOCATION:{{ event.location }}

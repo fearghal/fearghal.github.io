@@ -1,5 +1,4 @@
-{% assign calendar = site.data.calendars[page.calendar] %}
-BEGIN:VCALENDAR
+{% assign calendar = site.data.calendars[page.calendar] %}BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:{{ calendar.prodid }}
 NAME:{{ calendar.name }}
@@ -11,8 +10,8 @@ BEGIN:VEVENT
 ORGANIZER;{{ event.organizer }}
 UID:{{ event.uid }}
 DTSTAMP:{{ event.dtstamp }}
-DTSTART:{{ event.dtstamp }}
-DTEND:{{ event.dtstamp }}
+DTSTART:{{ event.dtstart }}
+DTEND:{{ event.dtend }}
 SUMMARY:{{ event.summary }}
 DESCRIPTION:{{ event.description }}
 LOCATION:{{ event.location }}
