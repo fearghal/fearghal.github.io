@@ -1,9 +1,4 @@
-page.calendar={{ page.calendar }}
-
 {% assign calendar = site.data.calendars[page.calendar] %}
-
-calendar={{ calendar }}
-
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:{{ calendar.cal_prodid }}
